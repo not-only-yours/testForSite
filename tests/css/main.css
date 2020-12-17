@@ -1,0 +1,309 @@
+html{
+    background-size: 100%;
+    font-family: "Century Gothic", serif;
+}
+
+body{
+    margin: 20px 70px 0 70px;
+}
+
+header{
+    top: 0;
+    background-color: black ;
+    padding-bottom: 60px;
+}
+
+.topnavMenu{
+    margin: 0;
+    margin-top: 20px;
+    padding: 4px;
+    float: right;
+}
+
+.topnavMenu li{
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-right: 20px;
+
+    padding: 5px;
+}
+
+.topnavMenu li:hover{
+    cursor: pointer;
+    background-color: #90756c;
+    border-radius: 3px;
+}
+
+#logo{
+    margin-left: 30px;
+    float: left;
+    margin-top: 0;
+    transition: transform .5s ease-in-out;
+}
+
+#basket{
+    float: right;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.infoBlock{
+
+    background-position: center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.textofInfoBox{
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: 400%;
+    color: orange;
+    text-align: center;
+}
+
+#last{
+    margin-bottom: 30px;
+}
+
+h1{
+    width: 99%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.photosofInfoBlock{
+    padding-top: 50px;
+    display: flex;
+    /* margin-left: 15%; */
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+
+.photosofInfoBlockImage{
+    border: 10px solid #b7a49e;
+    transition: transform .5s ease-in-out;
+}
+
+#centerPhotoofInfoBlock{
+    margin: 0 10px 0 10px;
+}
+
+.salesImg{
+    float: left;
+}
+
+.salesInfo{
+    display: block;
+    margin-left: 1%;
+    float: right;
+}
+
+.sales{
+    display: flex;
+    background-color: #e7dedb;
+    border-bottom:10px solid green;
+    border-left:5px solid green ;
+    border-right: 5px solid green;
+}
+
+.headSales{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.h2Sales{
+    color: #b7a49e;
+}
+
+.prise{
+    font-weight: bold;
+    margin: 0;
+    font-size: 630%;
+}
+
+.saleButton{
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    padding: 5% 35%;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.browseShopButton{
+    width: 25%;
+    margin: auto;
+    text-transform: uppercase;
+    background: transparent;
+    color: white;
+    border: 10px solid #e7e7e7;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 20%;
+}
+
+.browseShop{
+
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+
+    background-size: 60%;
+    background-position-y: -20px;
+    background-repeat: no-repeat;
+    padding: 5% 22%;
+    overflow: hidden;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.ribbon {
+
+    margin: 0;
+    margin-top: -10px;
+    margin-left: -105%;
+
+    height: 70px;
+    width: 500px;
+
+
+    background-color: green;
+
+    text-align: center;
+    transform: rotate(-45deg);
+}
+
+.footerMenu li{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding-right: 7%;
+    text-transform: uppercase;
+}
+
+.footerMenu{
+    margin: 0;
+    background-color: white;
+    /* padding-left: 20%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social{
+    margin: 30px 0 200px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.centrImageSocial{
+margin: 0 10px 0 10px;
+}
+
+@media (max-width: 1875px) {
+.ribbon {
+    margin-top: 20px;
+    margin-left: -93%;
+}
+}
+
+
+@media (max-width: 1600px) {
+.box{
+    font-size: 30px;
+
+}
+
+.ribbon{
+    margin-top: -20px;
+    margin-left: -97%;
+    height: 45px;
+}
+.salesInfo{
+    margin-right: 20%;
+}
+
+
+.headSales{
+    font-size: 30px;
+}
+}
+
+@media (max-width: 1450px) {
+
+.ribbon {
+    margin-top: 20px;
+    margin-left: -95%;
+
+}
+.salesInfo{
+    margin-right: 15%;
+}
+
+.prise{
+    font-size: 500%;
+}
+}
+
+@media (max-width: 1300px) {
+
+.prise{
+    font-size: 300%;
+    margin-top: -20px;
+}
+}
+
+.div1 img{
+    min-height: 300px;
+    max-height: 300px;
+}
+
+@media (max-width: 1200px) {
+    h1{
+        width: 97%;
+    }
+    .div1 img{
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+.photosofInfoBlockImage:hover{
+    border-color: #fcac45;
+    transform: scale(1.1,1.1);
+}
+
+#logo:hover{
+    -webkit-transform: translate(50px,0);
+    -moz-transform: translate(50px,0);
+    -o-transform: translate(50px,0);
+    transform: translate(50px,0);
+}
+

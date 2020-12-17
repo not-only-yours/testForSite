@@ -1,0 +1,760 @@
+html{
+    background-size: 100%;
+    font-family: "Century Gothic", serif;
+}
+
+body{
+    margin: 20px 70px 0 70px;
+}
+
+header{
+    top: 0;
+    background-color: black ;
+    padding-bottom: 60px;
+}
+
+.topnavMenu{
+    margin: 0;
+    margin-top: 20px;
+    padding: 4px;
+    float: right;
+}
+
+.topnavMenu li{
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-right: 20px;
+
+    padding: 5px;
+}
+
+.topnavMenu li:hover{
+    cursor: pointer;
+    background-color: #90756c;
+    border-radius: 3px;
+}
+
+#logo{
+    margin-left: 30px;
+    float: left;
+    margin-top: 0;
+    transition: transform .5s ease-in-out;
+}
+
+#basket{
+    float: right;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.infoBlock{
+
+    background-position: center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.textofInfoBox{
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: 400%;
+    color: orange;
+    text-align: center;
+}
+
+#last{
+    margin-bottom: 30px;
+}
+
+h1{
+    width: 99%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.photosofInfoBlock{
+    padding-top: 50px;
+    display: flex;
+    /* margin-left: 15%; */
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+
+.photosofInfoBlockImage{
+    border: 10px solid #b7a49e;
+    transition: transform .5s ease-in-out;
+}
+
+#centerPhotoofInfoBlock{
+    margin: 0 10px 0 10px;
+}
+
+.salesImg{
+    float: left;
+}
+
+.salesInfo{
+    display: block;
+    margin-left: 1%;
+    float: right;
+}
+
+.sales{
+    display: flex;
+    background-color: #e7dedb;
+    border-bottom:10px solid green;
+    border-left:5px solid green ;
+    border-right: 5px solid green;
+}
+
+.headSales{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.h2Sales{
+    color: #b7a49e;
+}
+
+.prise{
+    font-weight: bold;
+    margin: 0;
+    font-size: 630%;
+}
+
+.saleButton{
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    padding: 5% 35%;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.browseShopButton{
+    width: 25%;
+    margin: auto;
+    text-transform: uppercase;
+    background: transparent;
+    color: white;
+    border: 10px solid #e7e7e7;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 20%;
+}
+
+.browseShop{
+
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+
+    background-size: 60%;
+    background-position-y: -20px;
+    background-repeat: no-repeat;
+    padding: 5% 22%;
+    overflow: hidden;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.ribbon {
+
+    margin: 0;
+    margin-top: -10px;
+    margin-left: -105%;
+
+    height: 70px;
+    width: 500px;
+
+
+    background-color: green;
+
+    text-align: center;
+    transform: rotate(-45deg);
+}
+
+.footerMenu li{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding-right: 7%;
+    text-transform: uppercase;
+}
+
+.footerMenu{
+    margin: 0;
+    background-color: white;
+    /* padding-left: 20%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social{
+    margin: 30px 0 200px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.centrImageSocial{
+    margin: 0 10px 0 10px;
+}
+
+@media (max-width: 1875px) {
+    .ribbon {
+        margin-top: 20px;
+        margin-left: -93%;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .box{
+        font-size: 30px;
+
+    }
+
+    .ribbon{
+        margin-top: -20px;
+        margin-left: -97%;
+        height: 45px;
+    }
+    .salesInfo{
+        margin-right: 20%;
+    }
+
+
+    .headSales{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1450px) {
+
+    .ribbon {
+        margin-top: 20px;
+        margin-left: -95%;
+
+    }
+    .salesInfo{
+        margin-right: 15%;
+    }
+
+    .prise{
+        font-size: 500%;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .prise{
+        font-size: 300%;
+        margin-top: -20px;
+    }
+}
+
+.div1 img{
+    min-height: 300px;
+    max-height: 300px;
+}
+
+@media (max-width: 1200px) {
+    h1{
+        width: 97%;
+    }
+    .div1 img{
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+.photosofInfoBlockImage:hover{
+    border-color: #fcac45;
+    transform: scale(1.1,1.1);
+}
+
+#logo:hover{
+    -webkit-transform: translate(50px,0);
+    -moz-transform: translate(50px,0);
+    -o-transform: translate(50px,0);
+    transform: translate(50px,0);
+}
+
+.basketDiv{
+    width: 750px;
+    margin: 0 70px;
+    background: #919191;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.10);
+    border-radius: 6px;
+    position: absolute;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    margin-top: 60px;
+    overflow:scroll;
+    max-height: 400px;
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbcbcb;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 184, 184);
+}
+@media (max-width: 910px) {
+    .basketDiv {
+        width: 500px;
+    }
+}
+
+
+.oneofItemInCart{
+    border-right: none;
+    border-left: 2px solid gainsboro;;
+}
+
+.cartButton{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: -50px;
+
+
+    text-transform: uppercase;
+    background: gray;
+    color: white;
+    border: 10px solid #e7e7e7;
+
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+.oneofItemInCart{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    align-items: flex-start;
+    border-bottom: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+}
+
+.inputNum{
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+
+.priseOfBike{
+    align-self: center;
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nameofBike{
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+.orderDelete{
+    align-self: center;
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.parent {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.parent div{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1100px) {
+    .parent{
+        margin-left: 5%;
+    }
+
+    .parent div > input{
+        width: 100%!important;
+    }
+}
+
+.parent div > input{
+    height: 30px;
+    width: 150%;
+}
+
+.empty{
+    text-align: center;
+}
+
+.Type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+@media (max-width: 1200px) {
+    .Type{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.catalog{
+    background-color: white;
+    margin: 0;
+    padding:10px 10px
+}
+
+.div1, .div2, .div3, .div4{
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 20px ;
+    background-color: white;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+p{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+.AddButton{
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    padding: 5% 35%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main__about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+.about__right{
+    margin-right: 30px;
+    text-align: center;
+    margin-left: 250px;
+}
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+.about__right p{
+    margin: 30px 0 50px 0;
+    color: #6c6c6c;
+}
+.about__right li{
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.main__welcome{
+    padding: 50px 0 50px 0;
+}
+.main__welcome p{
+    font-size: 14px;
+}
+.main__welcome h1{
+    font-size: 25px;
+}
+.mw-100{
+    max-width: 100%;
+}
+.wrapper{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about__left{
+    min-width: 500px;
+}
+.about__right{
+    max-width: 40%;
+}
+
+
+@media screen and (max-width: 1700px) {
+    nav{
+        margin-left: 20%;
+    }
+    .main__about{
+        flex-direction:  column;
+    }
+    .about__right{
+        text-align:  center;
+        margin-left: 0;
+    }
+    .about__right{
+        max-width: 100%;
+    }
+    .about__right p{
+        margin-left: 20px;
+    }
+    .about__right li{
+        text-align: left;
+        margin-left: -20px;
+    }
+    .mw-100{
+        max-width: 100%;
+    }
+    .about__left{
+        margin-right: 20%;
+        padding-bottom: 10%;
+    }
+    .about__right button{
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .about__right{
+        text-align:  center;
+        margin-left: 0;
+    }
+
+    .about__right button{
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#spinner{
+    visibility: visible;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    border-top:3px solid #f25a41;
+    border-radius: 100%;
+
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+          transform: rotate(360deg);
+      }
+}
+
+#spinner.show {
+    visibility: visible;
+}
+
+
+
+.parent {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.parent div{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1100px) {
+    .parent{
+        margin-left: 5%;
+    }
+
+    .parent div > input{
+        width: 100%!important;
+    }
+}
+
+.parent div > input{
+    height: 30px;
+    width: 150%;
+}
+
+.parent div > p{
+    width: 150%;
+}
+
+h1{
+    margin-right: 20px;
+    background-color: white;
+    text-transform: uppercase;
+    padding:10px 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+.oneofItemInCart{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-start;
+    border-bottom: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    justify-content: space-between;
+}
+
+.inputNum{
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+
+
+.parent input:invalid {
+    border-color: red;
+}
+
+.priseOfBike{
+    align-self: center;
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nameofBike{
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+.orderDelete{
+    align-self: center;
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input:invalid{
+    border: 2px solid crimson;
+}
+
+
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 200px;
+}
+
+.gridElement button{
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    padding: 5% 35%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gridElement{
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 20px ;
+    background-color: white;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.gridElement img{
+    width: 100%;
+}

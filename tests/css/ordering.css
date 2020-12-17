@@ -1,0 +1,93 @@
+
+.parent {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.parent div{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1100px) {
+    .parent{
+        margin-left: 5%;
+    }
+
+    .parent div > input{
+        width: 100%!important;
+    }
+}
+
+.parent div > input{
+    height: 30px;
+    width: 150%;
+}
+
+.parent div > p{
+    width: 150%;
+}
+
+h1{
+    margin-right: 20px;
+    background-color: white;
+    text-transform: uppercase;
+    padding:10px 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+.oneofItemInCart{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-start;
+    border-bottom: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    justify-content: space-between;
+}
+
+.inputNum{
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+
+
+.parent input:invalid {
+    border-color: red;
+}
+
+.priseOfBike{
+    align-self: center;
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nameofBike{
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+.orderDelete{
+    align-self: center;
+    text-transform: uppercase;
+    background-color: #e7dedb;
+    border: 5px solid #b7a49e;
+    color: #b7a49e;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input:invalid{
+    border: 2px solid crimson;
+}

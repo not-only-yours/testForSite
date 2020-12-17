@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(HTML/css/images/background.png);">
+<head>
+    <title>Bike Shop</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<header>
+
+    <div class =  "topnav">
+        <p id="logo"><img src="HTML/css/images/main/logo.png" alt="logo"></p>
+        <p id="basket"><img src="HTML/css/images/main/basket.png" alt="basket" width="30px" style="background-color: black"></p>
+        <ul class="topnavMenu" id = "menu">
+            <li id="main">MAIN</li>
+            <li id="bikes">BIKES</li>
+            <li id = "offers" >OFFERS</li>
+        </ul>
+        <ul class="topnavMenu" id = "cart" style="display: none;text-transform: uppercase;" >
+            <li id="total"></li>
+            <li id ="createorder">visit cart</li>
+        </ul>
+    </div>
+
+<div>
+
+    <div class="basketDiv" id="basketDi">
+    </div>
+
+
+    </div>
+</header>
+<div id="spinner"></div>
+<div class="main" id = "allMain" data-value = "main">
+
+    <div class="infoBlock" style="background-image: url(HTML/css/images/main/bike.jpg);">
+        <p class="textofInfoBox">What a beautiful bike </p>
+        <p class="textofInfoBox">timeless, atmospheric</p>
+        <p class="textofInfoBox" id="last">& uncredible bikes!</p>
+        <div class="photosofInfoBlock">
+            <img class="photosofInfoBlockImage" id = "firstPhoto" src="HTML/css/images/main/left.jpg" width="29%" alt="mountainBike">
+            <img class="photosofInfoBlockImage" id="centerPhotoofInfoBlock" src="HTML/css/images/main/center.jpg" width="14.5%" alt="roadBike">
+            <img class="photosofInfoBlockImage" id="lastPhoto" src="HTML/css/images/main/right.jpg" width="29%" alt="forestBike">
+        </div>
+    </div>
+<div style="background-color: green; margin: 0; padding:10px 10px">
+    <h1 style="background-color: transparent">bestseller</h1>
+</div>
+    <div class="sales">
+        <img src="HTML/css/images/main/salesBike.png" width="40%" alt="">
+        <div class="salesInfo">
+            <p class="headSales">Bicycle RetroSyperb Vii #1</p>
+            <p class="h2Sales">by Rodriguez Else</p>
+            <p class="prise">299.99$</p>
+            <button class="saleButton" id = "sale">Add to Shopping bag</button>
+        </div>
+    </div>
+    <div class="scroll">
+
+    </div>
+    <div class="browseShop" style="background-image: url(HTML/css/images/main/shop.png);">
+        <button class="browseShopButton">browse shop</button>
+    </div>
+
+    <h1>everybody can join us</h1>
+
+
+
+
+</div>
+<div id = "end"></div>
+<footer>
+    <ul class="footerMenu">
+        <li>terms & conditions</li>
+        <li>return policy</li>
+        <li>reviews</li>
+        <li>about shop</li>
+        <li>secure payment</li>
+    </ul>
+    <div class="social">
+        <img src="HTML/css/images/paypal.png" alt="paypal" width="6%">
+        <img class="centrImageSocial" src="HTML/css/images/unionpay.png" alt="unionpay" width="6%">
+        <img src="HTML/css/images/visa.png" alt="visa" width="6%">
+        <img class="centrImageSocial" src="HTML/css/images/AE.png" alt="americanExpress" width="6%">
+        <img src="HTML/css/images/ya.png" alt="yandex" width="6%">
+    </div>
+
+</footer>
+</body>
+<link rel="stylesheet" href="./dist/app.css">
+<script type="text/javascript" src="dist/app.js"></script>
+</html>

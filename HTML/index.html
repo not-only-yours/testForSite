@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(images/background.png);">
+<head>
+    <title>Bike Shop</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/ordering.css">
+    <link rel="stylesheet" href="../css/basket.css">
+    <link rel="stylesheet" href="../css/catalog.css">
+    <link rel="stylesheet" href="../css/items.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/loader.css">
+    <link rel="stylesheet" href="../css/sales.css">
+</head>
+<body>
+<header>
+
+    <div class =  "topnav">
+        <p id="logo"><img src="images/main/logo.png" alt="logo"></p>
+        <p id="basket"><img src="images/main/basket.png" alt="basket" width="30px" style="background-color: black"></p>
+        <ul class="topnavMenu" id = "menu">
+            <li id="main">MAIN</li>
+            <li id="bikes">BIKES</li>
+            <li id = "offers" >OFFERS</li>
+        </ul>
+        <ul class="topnavMenu" id = "cart" style="display: none;text-transform: uppercase;" >
+            <li id="total"></li>
+            <li id ="createorder">visit cart</li>
+        </ul>
+    </div>
+
+<div>
+
+    <div class="basketDiv" id="basketDi">
+    </div>
+
+
+    </div>
+</header>
+<div id="spinner"></div>
+<div class="main" id = "allMain" data-value = "main">
+
+    <div class="infoBlock">
+        <p class="textofInfoBox">What a beautiful bike </p>
+        <p class="textofInfoBox">timeless, atmospheric</p>
+        <p class="textofInfoBox" id="last">& uncredible bikes!</p>
+        <div class="photosofInfoBlock">
+            <img class="photosofInfoBlockImage" id = "firstPhoto" src="images/main/left.jpg" width="29%" alt="mountainBike">
+            <img class="photosofInfoBlockImage" id="centerPhotoofInfoBlock" src="images/main/center.jpg" width="14.5%" alt="roadBike">
+            <img class="photosofInfoBlockImage" id="lastPhoto" src="images/main/right.jpg" width="29%" alt="forestBike">
+        </div>
+    </div>
+<div style="background-color: green; margin: 0; padding:10px 10px">
+    <h1 style="background-color: transparent">bestseller</h1>
+</div>
+    <div class="sales">
+        <img src="images/main/salesBike.png" width="40%" alt="">
+        <div class="salesInfo">
+            <p class="headSales">Bicycle RetroSyperb Vii #1</p>
+            <p class="h2Sales">by Rodriguez Else</p>
+            <p class="prise">299.99$</p>
+            <button class="saleButton" id = "sale" onclick="mainSale()">Add to Shopping bag</button>
+        </div>
+    </div>
+    <div class="scroll">
+
+    </div>
+    <div class="browseShop" onclick=browseShop()>
+        <button class="browseShopButton">browse shop</button>
+    </div>
+
+    <h1>everybody can join us</h1>
+
+
+
+
+</div>
+<div id = "end"></div>
+<footer>
+    <ul class="footerMenu">
+        <li>terms & conditions</li>
+        <li>return policy</li>
+        <li>reviews</li>
+        <li>about shop</li>
+        <li>secure payment</li>
+    </ul>
+    <div class="social">
+        <img src="images/paypal.png" alt="paypal" width="6%">
+        <img class="centrImageSocial" src="images/unionpay.png" alt="unionpay" width="6%">
+        <img src="images/visa.png" alt="visa" width="6%">
+        <img class="centrImageSocial" src="images/AE.png" alt="americanExpress" width="6%">
+        <img src="images/ya.png" alt="yandex" width="6%">
+    </div>
+
+</footer>
+</body>
+
+<script type="text/javascript" src="../tests/js/Loader.js"></script>
+<script type="text/javascript" src="../tests/js/routing.js"></script>
+<script type="text/javascript" src="../tests/js/main.js"></script>
+<script type="text/javascript" src="../tests/js/parsejson.js"> </script>
+<script type="text/javascript" src="../tests/js/catalogCreator.js"></script>
+<script type="text/javascript" src="../tests/js/workWithLocalStorage.js"></script>
+<script type="text/javascript" src="../tests/js/createOrder.js"></script>
+<script type="text/javascript" src="../tests/js/salesPageCreator.js"></script>
+
+</html>
