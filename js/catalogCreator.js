@@ -2,7 +2,7 @@ import {getURL, sendRequest} from "./parsejson";
 import {addToLocalStorage} from "./workWithLocalStorage";
 let gridsCreated = false
 
-let blockmainInner
+let blockmainInner = ''
 export function getCopyMainBlock(){return  blockmainInner}
 export function getMainBlockOfCatalog(){return document.getElementById('allMain')}
 export function getGridsCreated(){return gridsCreated}
