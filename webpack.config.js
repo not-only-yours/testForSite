@@ -1,3 +1,5 @@
+
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path')
 
@@ -26,6 +28,10 @@ module.exports= {
     },
     plugins: [
         new MiniCssExtractPlugin(),
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: 'index.html'
+        })
     ],
     devServer: {
         overlay: true

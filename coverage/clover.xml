@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1608506184542" clover="3.2.0">
-  <project timestamp="1608506184542" name="All files">
+<coverage generated="1608534803213" clover="3.2.0">
+  <project timestamp="1608534803213" name="All files">
     <metrics statements="660" coveredstatements="565" conditionals="107" coveredconditionals="70" methods="79" coveredmethods="52" elements="846" coveredelements="687" complexity="0" loc="660" ncloc="660" packages="1" files="8" classes="8"/>
     <file name="Loader.js" path="C:\Users\User\WebstormProjects\testForSite\js\Loader.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

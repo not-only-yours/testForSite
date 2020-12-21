@@ -13,22 +13,12 @@ export function sendRequest(method, url) {
                 hideSpinner()
             return response.json();
         }
-
-        return response.json().then(error => {
-            hideSpinner();
-            const e = new Error('Что-то пошло не так')
-            e.data = error
-            throw e
-
-        })
     })
 }
 
 
 
 export function sendPOST(method,url,body = null){
-
-
     return fetch(url, {
         method: method,
         body: JSON.stringify(body)
@@ -36,13 +26,5 @@ export function sendPOST(method,url,body = null){
         if (response.ok) {
             return response.json()
         }
-
-        return response.json().then(error => {
-            const e = new Error('Что-то пошло не так')
-            e.data = error
-            throw e
-        }).then((data) => {
-            console.log(data)
-        })
     })
 }

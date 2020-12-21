@@ -26,7 +26,7 @@ window.addEventListener('hashchange',function (){
 export let checker = false
 
 export function routing(){
-    //console.log(location.hash)
+    // console.log(location.hash)
     if(location.hash.slice(-7) === '/basket'){
             document.getElementById("basketDi").style.display = "block";
             document.getElementById("cart").style.display = "block";

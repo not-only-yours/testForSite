@@ -1,6 +1,6 @@
 {
 
-    "extends": ["airbnb","prettier","plugin:node/recommended"],
+    "extends": ["airbnb","prettier"],
     "plugins": ["prettier"],
     "rules": {
         "indent": [
@@ -19,5 +19,10 @@
             "error",
             "always"
         ]
-    }
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "ignorePatterns": ["temp.js", "**/*.js"]
 }

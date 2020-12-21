@@ -69,10 +69,10 @@ export function createDiv(aa){
 
 export function funcDelete(aa){
     aa = aa.replace('cart','')
-    console.log(aa)
+    //console.log(aa)
     let  arr = JSON.parse(localStorage["cart"])
     let shouldDelete = true
-    console.log(arr)
+    //console.log(arr)
     for(let key in arr){
         if(shouldDelete && arr[key].id === aa){
             arr.splice(key, 1)
